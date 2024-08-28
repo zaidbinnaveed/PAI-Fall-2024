@@ -5,10 +5,13 @@ if(size>0):
     last_letter=word[-1]
     if(last_letter in vowels):
         print(f"The last letter {last_letter} is a vowel")
-    elif(last_letter not in vowels):
+    elif(last_letter.isalpha()):
         print(f"The last letter {last_letter} is a consonant")
     else:
         print(f"The last letter {last_letter} is neither a vowel nor a consonent")
+        
+    
+    
         
     
     
